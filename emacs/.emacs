@@ -125,9 +125,8 @@
 (add-hook 'python-mode-hook 'python-black-on-save-mode)
 
 ;; Autocompletion for python
-(add-hook 'python-mode-hook 'jedi:setup)
-(setq jedi:setup-keys t)                     
-(setq jedi:complete-on-dot t)
+;;(add-hook 'python-mode-hook 'jedi:setup)
+;;(setq jedi:complete-on-dot t)
     
 ;; Open terminal by pressing F4 key
 (global-set-key [f4] '(lambda () (interactive) (term (getenv "SHELL"))))
