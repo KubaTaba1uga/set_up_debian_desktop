@@ -1,6 +1,14 @@
 [![PyTest](https://github.com/KubaTaba1uga/python_script_executor/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/KubaTaba1uga/python_script_executor/actions/workflows/pytest.yml) 
 [![codecov](https://codecov.io/gh/KubaTaba1uga/python_script_executor/branch/master/graph/badge.svg?token=BHLC73ZGK0)](https://codecov.io/gh/KubaTaba1uga/python_script_executor)
 
+# Configuration description
+
+List of packages that app install and configure:
+
+1. xorg
+2. lightdm
+3. xfce4
+4. terminator (shell terminal)
 
 # Requirements
 
