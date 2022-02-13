@@ -12,4 +12,5 @@ gnome-icon-theme        \
 gnome-backgrounds      \
 gnome-control-center     \
 gnome-themes-standard \
-terminator nautilus -y --no-install-recommends --fix-missing
+terminator nautilus guake \
+-y --no-install-recommends --fix-missing
