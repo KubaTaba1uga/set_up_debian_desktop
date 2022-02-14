@@ -12,5 +12,6 @@ gnome-icon-theme        \
 gnome-backgrounds      \
 gnome-control-center     \
 gnome-themes-standard \
+chrome-gnome-shell \
 terminator nautilus guake \
 -y --no-install-recommends --fix-missing
