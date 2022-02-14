@@ -13,5 +13,6 @@ gnome-backgrounds      \
 gnome-control-center     \
 gnome-themes-standard \
 chrome-gnome-shell \
+pulseaudio  \
 terminator nautilus guake \
 -y --no-install-recommends --fix-missing
