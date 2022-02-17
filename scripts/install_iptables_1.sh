@@ -25,8 +25,8 @@ sudo iptables -A OUTPUT -p tcp --dport 443 -m state --state NEW,ESTABLISHED -j A
 sudo iptables -A INPUT -p tcp --sport 443 -m state --state ESTABLISHED -j ACCEPT
 
 ## Allow from localhost
-iptables -A INPUT -i lo -j ACCEPT
-iptables -A OUTPUT -o lo -j ACCEPT
+sudo iptables -A INPUT -i lo -j ACCEPT
+sudo iptables -A OUTPUT -o lo -j ACCEPT
 
 # Save iptables
 sudo iptables-save | sudo tee /etc/iptables/rules.v4 > /dev/null
