@@ -10,7 +10,7 @@ echo iptables-persistent iptables-persistent/autosave_v6 boolean true | sudo deb
 
 sudo $non_interactive apt-get install iptables-persistent -y
 
-# Allow UDP 
+# Allow DNS 
 sudo iptables -I INPUT -p udp --sport 53 -j ACCEPT
 sudo iptables -I INPUT -p tcp --sport 53 -j ACCEPT
 # Allow HTTP
