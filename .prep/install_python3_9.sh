@@ -12,6 +12,8 @@ cd Python-3.9.8
 
 ./configure --enable-optimizations  
 
-sudo make install   
+make -j 4
+
+sudo make altinstall   
 
 sudo rm -r -f ../Python-3.9.8
