@@ -1,4 +1,4 @@
 #!/bin/bash
 non_interactive="DEBIAN_FRONTEND=noninteractive"
 
-sudo  $non_interactive apt-get install -t unstable firefox -y
+sudo  $non_interactive apt-get install -t firefox-esr -y
