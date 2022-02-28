@@ -13,7 +13,7 @@ if ! [ -x "$(command -v emacs)" ]; then
         build-essential git autoconf texinfo \
         libgnutls28-dev libxml2-dev libncurses5-dev \
         libjansson-dev libxpm-dev libgif-dev bear \
-        libgtk-3-dev libjpeg libtiff
+        libgtk-3-dev libjpeg-dev libtiff-dev 
   
   
   mkdir /tmp/install_emacs
