@@ -9,8 +9,9 @@ if ! [ -x "$(command -v emacs)" ]; then
   python3 -m pip install jedi 
 
   # Install emacs
-  sudo $non_interactive apt-get install -y build-essential git autoconf texinfo libgnutls28-dev libxml2-dev libncurses5-dev libjansson-dev libxpm-dev libgif-dev bear
-
+  sudo $non_interactive apt-get install -y build-essential git autoconf texinfo libgnutls28-dev libxml2-dev libncurses5-dev libjansson-dev libxpm-dev libgif-dev bear libgtk-3-dev
+  
+  
   mkdir /tmp/install_emacs
 
   git clone https://github.com/emacs-mirror/emacs.git /tmp/install_emacs
