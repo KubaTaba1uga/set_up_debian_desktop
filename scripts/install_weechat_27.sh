@@ -17,14 +17,10 @@ sudo $non_interactive apt-get install weechat weechat-curses weechat-plugins wee
 # Add slack
 python3 -m pip install websocket_client
 
-wget https://raw.githubusercontent.com/wee-slack/wee-slack/master/wee_slack.py
-
 mkdir  ~/.weechat
 
 mkdir  ~/.weechat/python
 
 mkdir  ~/.weechat/python/autoload
 
-cp wee_slack.py ~/.weechat/python/autoload
-
-rm wee_slack.py
+wget https://raw.githubusercontent.com/wee-slack/wee-slack/master/wee_slack.py ~/.weechat/python/autoload
