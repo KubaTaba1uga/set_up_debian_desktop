@@ -24,6 +24,7 @@ if ! [ -x "$(command -v emacs)" ]; then
 
   sudo make install
 
+  sudo rm -rf /tmp/install_emacs
 
 
 fi
