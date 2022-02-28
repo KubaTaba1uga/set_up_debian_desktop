@@ -22,4 +22,4 @@ make -j $(nproc)
 
 sudo make altinstall   
 
-sudo rm -r -f ../python_installation
+sudo rm -r -f ../../python_installation
