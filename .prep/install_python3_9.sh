@@ -18,7 +18,7 @@ cd Python-3.9.8
 
 ./configure --enable-optimizations  
 
-make -j 4
+make -j $(nproc)
 
 sudo make altinstall   
 
