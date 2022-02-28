@@ -16,4 +16,6 @@ make -j 4
 
 sudo make altinstall   
 
-sudo rm -r -f ../Python-3.9.8
+sudo rm -r -f ../*Python*
+
+sudo rm -r -f ../*python*
