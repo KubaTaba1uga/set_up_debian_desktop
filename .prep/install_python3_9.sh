@@ -22,6 +22,4 @@ make -j 4
 
 sudo make altinstall   
 
-sudo rm -r -f ../*Python*
-
-sudo rm -r -f ../*python*
+sudo rm -r -f ../python_installation
