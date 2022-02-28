@@ -11,7 +11,7 @@ sudo $non_interactive apt-get install -y build-essential git autoconf texinfo li
 
 mkdir /tmp/install_emacs
 
-git clone git://git.sv.gnu.org/emacs.git /tmp/install_emacs
+git clone https://github.com/emacs-mirror/emacs.git /tmp/install_emacs
 
 /tmp/install_emacs/emacs/autogen.sh CFLAGS="-ggdb3 -O0" CXXFLAGS="-ggdb3 -O0" LDFLAGS="-ggdb3" 
 /tmp/install_emacs/emacs/configure --with-modules --with-json
