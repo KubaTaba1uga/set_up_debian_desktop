@@ -21,7 +21,7 @@ if ! [ -x "$(command -v emacs)" ]; then
 
   cd /tmp/install_emacs/
 
-  bear make -j$(nproc)
+  bear make -j $(nproc)
 
   sudo make install
 
