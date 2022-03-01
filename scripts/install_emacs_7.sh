@@ -23,7 +23,7 @@ if ! [ -x "$(command -v emacs)" ]; then
 
   bear make -j $(nproc)
 
-  sudo make install
+  sudo make altinstall
 
   sudo rm -rf /tmp/install_emacs
 
