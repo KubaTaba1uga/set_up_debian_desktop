@@ -9,3 +9,5 @@ sudo  $non_interactive apt-get install qemu-kvm libvirt-clients libvirt-daemon-s
 sudo systemctl enable --now libvirtd 
 
 sudo usermod -a -G libvirt $USER 
+sudo usermod -a -G libvirt-qemu $USER 
+sudo usermod -a -G kvm $USER 
